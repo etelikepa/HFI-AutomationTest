@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="358"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="358"/>
+						<Prp name="starttime" type="D" value="44752.7290862153"/>
+						<Prp name="name" type="S" value="246716_Submit barcode with invalid Reagent Product Number Check status code"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEIAQwBBAEYAQQAyADIALQA1AEQAMABBAC0ANAA1AEQAMwAtAEIAOABFADgALQBEAEUAMgAzADIANQA4ADMAOQAyAEYARQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IG/kCAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="durationwithoutchildren" type="I" value="21125"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="21125"/>
+						<Prp name="starttime" type="D" value="44752.7288413194"/>
+						<Prp name="name" type="S" value="246715_Submit invalid barcode"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEIAQwBBAEYAQQAyADIALQA1AEQAMABBAC0ANAA1AEQAMwAtAEIAOABFADgALQBEAEUAMgAzADIANQA4ADMAOQAyAEYARQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="21483"/>
+				<Prp name="starttime" type="D" value="44752.7288413194"/>
+				<Prp name="name" type="S" value="Hfi.Smm.Backend.Automation.Test"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="host" type="S" value="DESKTOP-00MQGM5"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="stop" type="D" value="44752.7290920833"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="testname" type="S" value="[All Scenarios]"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="user" type="S" value="ETELIKEPA"/>
+		<Prp name="name" type="S" value="Hfi.Smm.Backend.Automation.Test"/>
+		<Prp name="starttime" type="D" value="44752.7288304861"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{71777414-F98C-4F86-8BD4-BB0ADC9647BA}"/>
+	</Node>
+</Nodes>
