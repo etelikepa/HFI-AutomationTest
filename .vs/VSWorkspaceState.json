@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Build",
+    "\\Documentation",
+    "\\Source",
+    "\\Source\\Hfi.Smm.Backend.Automation.Test",
+    "\\Source\\Hfi.Smm.Backend.Automation.Test\\Project",
+    "\\Source\\Hfi.Smm.Backend.Automation.Test\\Project\\Script",
+    "\\Source\\Hfi.Smm.Backend.Automation.Test\\Project\\Script\\Hfi.Smm.Backend.Consumable.Service"
   ],
-  "SelectedNode": "\\D:\\Users\\ETELIKEPA\\OneDrive - Danaher\\Desktop\\HFI-AutomationTest",
+  "SelectedNode": "\\Source\\Hfi.Smm.Backend.Automation.Test\\Project\\Script\\Hfi.Smm.Backend.Consumable.Service\\F_1528_US_199146_test.js",
   "PreviewInSolutionExplorer": false
 }
