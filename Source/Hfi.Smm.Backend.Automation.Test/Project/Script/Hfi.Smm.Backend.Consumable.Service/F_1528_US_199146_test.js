@@ -21,6 +21,7 @@
 //USEUNIT Util_GLOBAL
 //USEUNIT Util_Helper
 //USEUNIT Util_HttpRequest
+//USEUNIT Util_helperPage
 
 var GetReagentEndPoint = "/reagents/";
 var restApiGetReagent;
